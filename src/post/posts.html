@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Tous les posts</title>
+</head>
+<body>
+    <header>
+        <a href="../login/login.html" class="log-button isLoggedOut">Connexion</a>
+        <a href="../index.html" class="log-button isLoggedOut">Inscription</a>
+        <a href="../logout/logout.html" class="log-button isLoggedIn hide">Déconnexion</a>
+    </header>
+
+    <div class="main posts">
+        <h1>Tous les posts</h1>
+        
+        <div class="posts_list">
+            <p class="isLoggedOut">Vous devez vous connecter pour consulter les posts.</p>
+        </div>
+
+        <button type="button" class="isLoggedIn hide"><a href="post.html">Créer un post</a></button>
+    </div>
+    
+    <script src="posts.js"></script>
+</body>
+</html>
