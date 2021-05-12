@@ -30,7 +30,7 @@ const onSubmitForm = () => {
         document.querySelector(".info-message").classList.add("hide");
         document.querySelector(".main").innerHTML += `
         <p>${response.message}</p>
-        <p><a href="./login/login.html">Connectez-vous sans attendre !</a></p>
+        <p><a href="http://localhost/login/login.html">Connectez-vous sans attendre !</a></p>
       `;
       }
     }

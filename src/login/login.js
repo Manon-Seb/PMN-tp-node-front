@@ -23,7 +23,7 @@ const onSubmitForm = () => {
         // si l'authentification réussi, on stocke le token dans le localStorage
         localStorage.setItem("token", response.token);
         // puis on redirige à la page des posts
-        window.location.replace("../post/posts.html");
+        window.location.replace("http://localhost/post/posts.html");
       }
     }
   });
